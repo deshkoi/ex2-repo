@@ -1,0 +1,50 @@
+git init
+git status
+git branch -m master main
+git status
+git git init
+git status
+git add appv1.py
+git commit -m "Added the first version of app"
+git add info.mod
+git add info.md
+git commit -m "Project documentation goes here"
+git add error.log
+git commit -m "Error details recorded"
+git status
+git add .gitignore
+git commit -m "Added gitignore"
+git branch feature1-shop
+git switch feature1-shop
+git add appv1.py
+git commit -m "Modify appv1"
+git switch main
+git add appv1.py
+git commit -m "Modify appv1 in branch main"
+git status
+git merge feature1-shop
+git merge feature1-shop
+git merge feature1-shop
+git merge feature1-shop
+git remote add origin https://github.com/deshkoi/ex2-repo.git
+git push -u origin main
+git add appv1.py
+git commit -m "Modify appv1 "
+git push -u origin main
+git add .
+git commit -m "Add ignore"
+git push -u origin main
+git remove .
+cat -A .gitignore
+git status --ignored
+git rm --cached info.md
+git add .gitignore
+git commit -m "Fix .gitignore"
+git push -u origin main
+git pull
+git pull README
+git pull README.txt
+Get-History |?CommandLine -match "git" | %CommandLine > ex2.txt 
+Get-History |? CommandLine -match "git" | %CommandLine > ex2.txt 
+Get-History |? CommandLine -match "git" | % CommandLine > ex2.txt 
+git push -u origin main
